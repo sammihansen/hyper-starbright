@@ -3,5 +3,7 @@
 node_modules/
 
 # [files]
+.env
 .editorconfig
 .eslintrc.yml
+package-lock.json
