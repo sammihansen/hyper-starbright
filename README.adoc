@@ -5,7 +5,7 @@ Sam Hansen <smhansen07@gmail.com>
 :hardbreaks:
 :source-highlighter: pygments
 
-A cute light theme for Hyper.app with bright bastel colors! 😼
+A cute light theme for Hyper.app with bright pastel colors! 😼
 
 == Installation
 
@@ -17,6 +17,7 @@ plugins: [
     'hyper-starbright'
 ],
 ----
+
 **OR**
 
 [source, zsh]
