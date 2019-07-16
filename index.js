@@ -22,21 +22,20 @@ const colors = {
 };
 
 exports.decorateConfig = config => {
-    return Object.assign({}, config, {
+        return Object.assign({}, config, {
         foregroundColor,
         backgroundColor,
         borderColor,
         cursorColor,
         colors,
         termCSS: `
-            ${config.termCSS || ""}
+        ${config.termCSS || ""}
         `,
         css: `
             ${config.css || ""}
             .tabs_nav .tabs_list .tab_text {
                 color: ${foregroundColor} !important;
             }
-
             .tabs_nav .tabs_title {
                 color: ${foregroundColor} !important;
             }
