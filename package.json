@@ -20,6 +20,8 @@
     "private": true,
     "license": "UNLICENSE",
     "devDependencies": {
-        "eslint": "^5.16.0"
-    }
+        "eslint": "^5.16.0",
+        "lodash": "^4.17.14"
+    },
+    "dependencies": {}
 }
