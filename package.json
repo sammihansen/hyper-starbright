@@ -1,6 +1,6 @@
 {
     "name": "hyper-starbright",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Hyper theme with bright pastes colors.",
     "main": "index.js",
     "keywords": [
@@ -19,9 +19,5 @@
     "repository": "https://github.com/sammihansen/hyper-starbright",
     "private": true,
     "license": "UNLICENSE",
-    "devDependencies": {
-        "eslint": "^5.16.0",
-        "lodash": "^4.17.14"
-    },
     "dependencies": {}
 }
