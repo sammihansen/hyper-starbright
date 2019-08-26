@@ -5,7 +5,7 @@ env:
   quotes:
     -error
     -single
-    -allowTemplateLiterals: true
+    # -allowTemplateLiterals: true
 extends: 'eslint:recommended'
 globals:
   Atomics: readonly
