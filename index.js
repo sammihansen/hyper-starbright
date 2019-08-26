@@ -1,7 +1,7 @@
 const cursorColor = "#98eef5";
 const foregroundColor = "#1b1b2e";
 const backgroundColor = "#fff";
-const borderColor = "#fff6f6";
+const borderColor = "#fff";
 const colors = {
   lightBlack: "#555c5f",
   lightRed: "#f07373",

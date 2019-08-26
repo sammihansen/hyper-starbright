@@ -4,6 +4,6 @@
 node_modules/
 
 # [files]
-.env
-.editorconfig
-.eslintrc.yml
+#.env
+#.editorconfig
+#.eslintrc.yml
