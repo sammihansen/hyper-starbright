@@ -19,5 +19,8 @@
     "repository": "https://github.com/sammihansen/hyper-starbright",
     "private": true,
     "license": "UNLICENSE",
-    "dependencies": {}
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^6.1.0"
+    }
 }
