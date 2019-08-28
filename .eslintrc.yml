@@ -2,7 +2,6 @@ env:
   browser: true
   es6: true
   node: true
-  allowTemplateLiterals: true
 extends: 'eslint:recommended'
 globals:
   Atomics: readonly
@@ -10,4 +9,6 @@ globals:
 parserOptions:
   ecmaVersion: 2018
   sourceType: module
-rules: {}
+rules: {
+    allowedTermplateLiterals: 2
+}

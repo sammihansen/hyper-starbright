@@ -13,10 +13,12 @@ plugins: [
 ],
 ...
 ```
-**OR**
+
+> OR
 
 ```bash
-$ hyper install hyper-starbright
+hyper install hyper-starbright
 ```
 
+License: [The Unlicense](./license.md)
 ฅ^•ﻌ•^ฅ

@@ -1,7 +1,8 @@
 const cursorColor = "#98eef5";
+const windowControlsColor = "#fa8072";
 const foregroundColor = "#1b1b2e";
-const backgroundColor = "#fff";
-const borderColor = "#fff";
+const backgroundColor = "#ffffff";
+const borderColor = "#ffffff";
 const colors = {
   lightBlack: "#555c5f",
   lightRed: "#f07373",
@@ -27,16 +28,32 @@ exports.decorateConfig = config => {
     backgroundColor,
     borderColor,
     cursorColor,
+    windowControlsColor,
     colors,
     termCSS: `
-    ${config.termCSS || ""}
+      ${config.termCSS || ""} 
     `,
     css: `
-      ${config.css || ""}
-      .tabs_nav .tabs_list .tab_text {
+      ${ config.css || "" }
+      .header_shape.header_hamburgerMenuLeft { 
+        color: ${windowControlsColor} !important; 
+      } 
+      .header_appTitle {
         color: ${foregroundColor} !important;
       }
-      .tabs_nav .tabs_title {
+      .header_shape {
+        color: ${windowControlsColor} !important;
+      }
+      .header_closeWindow {
+        color ${windowControlsColor} !important;
+      }
+      .tabs_nav
+      .tabs_list
+      .tab_text { 
+        color: ${foregroundColor} !important;
+      }
+      .tabs_nav
+      .tabs_title {
         color: ${foregroundColor} !important;
       }
     `
