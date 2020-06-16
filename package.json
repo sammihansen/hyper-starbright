@@ -24,6 +24,7 @@
   "license": "UNLICENSE",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.1.0",
+    "@jsdevtools/npm-publish": "1.1.0"
   }
 }
