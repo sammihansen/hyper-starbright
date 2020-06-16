@@ -2,12 +2,11 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
 name: build Nodejs package
 on:
-  release:
+  push:
+    branches:
+      - master
+      - release/*
     types: [created]
-
-  label:
-    - name: NPM Publish
-      uses: JS-DevTools/npm-publish@v1
 
 jobs:
   build:
@@ -33,6 +32,20 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+  
+  publish:
+    runs-on: windows-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: npm install
+      - run: npm test
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
 
   publish-gpr:
     needs: build
