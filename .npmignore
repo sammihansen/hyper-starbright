@@ -1,0 +1,6 @@
+# Files to ignore when publishing
+.editorconfig
+.env
+.eslintrc.yml
+.gitignore
+.npmrc
