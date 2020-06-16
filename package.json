@@ -1,26 +1,29 @@
 {
-    "name": "hyper-starbright",
-    "version": "1.0.0",
-    "description": "Hyper theme with bright pastel colors.",
-    "main": "index.js",
-    "keywords": [
-        "hyper",
-        "hyper-theme",
-        "hyperterm",
-        "hyperterm-theme",
-        "colors",
-        "colorful",
-        "pastel",
-        "bright",
-        "light",
-        "theme"
-    ],
-    "author": "sam hansen <smhansen07@gmail.com",
-    "repository": "https://github.com/sammihansen/hyper-starbright",
-    "private": true,
-    "license": "UNLICENSE",
-    "dependencies": {},
-    "devDependencies": {
-        "eslint": "^6.1.0"
-    }
+  "name": "hyper-starbright",
+  "version": "1.0.0",
+  "description": "Hyper theme with bright pastel colors.",
+  "main": "index.js",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "hyperterm",
+    "hyperterm-theme",
+    "colors",
+    "colorful",
+    "pastel",
+    "bright",
+    "light",
+    "theme"
+  ],
+  "author": "sam hansen <smhansen07@gmail.com",
+  "repository": "https://github.com/sammihansen/hyper-starbright",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "UNLICENSE",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
 }
