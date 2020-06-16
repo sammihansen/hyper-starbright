@@ -21,7 +21,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "license": "UNLICENSE",
+  "license": "UNLICENSED",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^6.1.0",
