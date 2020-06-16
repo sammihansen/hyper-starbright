@@ -6,6 +6,11 @@ on:
     branches:
       - master
       - release/*
+<<<<<<< HEAD
+=======
+    types: [created]
+
+>>>>>>> 0e35534acd131b1032c8ad559a4023462d475cf6
 jobs:
   build:
     runs-on: windows-latest
@@ -16,6 +21,10 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm test
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e35534acd131b1032c8ad559a4023462d475cf6
   publish-npm:
     needs: build
     runs-on: windows-latest
@@ -29,9 +38,16 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+<<<<<<< HEAD
   publish:
     runs-on: windows-latest
     steps:
+=======
+  
+  publish:
+    runs-on: windows-latest
+    steps: 
+>>>>>>> 0e35534acd131b1032c8ad559a4023462d475cf6
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
