@@ -10,5 +10,5 @@ parserOptions:
   ecmaVersion: 2018
   sourceType: module
 rules: {
-    allowedTermplateLiterals: 2
+  allowedTermplateLiterals: 2
 }
