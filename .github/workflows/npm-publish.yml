@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://registry.npmjs.org/sammihansen/
+          registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm publish
         env:
@@ -39,7 +39,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/sammihansen/
+          registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm publish
         env:
