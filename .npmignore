@@ -3,4 +3,4 @@
 .env
 .eslintrc.yml
 .gitignore
-
+.npmrc
