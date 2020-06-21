@@ -1,6 +1,6 @@
 const cursorColor = "#98eef5";
-const windowControlsColor = "#fa8072";
-const foregroundColor = "#1b1b2e";
+const windowControlsColor = "#32cd32"; /*#fa8072*/
+const foregroundColor = "#2e8b57";
 const backgroundColor = "#ffffff";
 const borderColor = "#ffffff";
 const colors = {
@@ -19,10 +19,10 @@ const colors = {
   blue: "#bcb8ff",
   magenta: "#f3adcd",
   cyan: "#87e0dc",
-  white: "#fafafa"
+  white: "#fafafa",
 };
 
-exports.decorateConfig = config => {
+exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     foregroundColor,
     backgroundColor,
@@ -34,7 +34,7 @@ exports.decorateConfig = config => {
       ${config.termCSS || ""} 
     `,
     css: `
-      ${ config.css || "" }
+      ${config.css || ""}
       .header_shape.header_hamburgerMenuLeft { 
         color: ${windowControlsColor} !important; 
       } 
@@ -56,6 +56,6 @@ exports.decorateConfig = config => {
       .tabs_title {
         color: ${foregroundColor} !important;
       }
-    `
+    `,
   });
 };
