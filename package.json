@@ -22,5 +22,8 @@
   },
   "dependencies": {},
   "devDependencies": {},
+  "publishConfig": {
+    "allow-same-version": true
+  },
   "license": "MIT"
 }
